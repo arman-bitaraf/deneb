@@ -376,6 +376,26 @@ body{
 .slider__img{
     width: 100%;
 }
+@media screen and (min-width:992px) {
+    .slider__img{
+        width: auto;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    .slider__img{
+        width: auto;
+        height: 300px;
+        display: block;
+        margin:0 auto;
+        
+    }
+    
+}
 .slider__content{
    
     text-align: center;
@@ -385,6 +405,12 @@ body{
         float: left;
         width: 50%;
         text-align: left;
+    }
+}
+@media screen and (min-width:992px) {
+    .slider__content{
+        padding-top: 60px;
+        padding-left: 75px;
     }
 }
 
